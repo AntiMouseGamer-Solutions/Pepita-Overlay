@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "io.github.atmgsolutions.pepita.mixin.impl",
+  "refmap": "refmap.pepita.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "client.MixinMinecraft",
+    "entity.MixinEntityPlayerSP",
+    "renderer.MixinGuiInGame"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
